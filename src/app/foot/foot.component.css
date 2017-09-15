@@ -1,0 +1,9 @@
+.foot {
+   /* margin: 0 auto;*/
+    width:600px; 
+    border: 2px solid #2E810E;
+}
+
+p {
+    font-size: 15px; 
+}

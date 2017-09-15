@@ -1,0 +1,7 @@
+.container {
+    margin: 0 auto;
+    width:600px;
+    height: 850px;
+    background-color:rgba(124, 124, 124, 0.08);
+    border: 1px solid blue;
+}

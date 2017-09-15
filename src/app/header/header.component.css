@@ -1,0 +1,14 @@
+img {
+    width:120px;
+    height:120px;
+    float:left;
+    margin-top: 40px;
+    margin-left:10px;
+    border:2px solid black;
+}
+
+.cabecera {
+    margin: 0 auto;
+    background-color: rgba(58, 144, 184, 0.4);
+    height:140px;
+}

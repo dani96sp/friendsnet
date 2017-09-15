@@ -1,0 +1,35 @@
+.mishistorietas {
+    float:left;
+    width:59%;
+    margin-bottom:30px;
+}
+
+.mispublicaciones {
+    border: 1px solid black;
+    margin-top: 1px;
+    height:320px;
+    
+}
+
+.miscoleguillas {
+    float:right;
+    width:40%;
+    margin:1px;
+    margin-bottom:30px;
+    
+}
+
+.misamigos {
+    border: 1px solid black;
+    height:320px;
+    
+}
+
+.misdatos {
+    border: 1px solid black;
+    height: 170px;
+}
+
+.profile {
+    margin-top: 30px;
+}
