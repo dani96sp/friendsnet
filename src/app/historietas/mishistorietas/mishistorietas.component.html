@@ -1,0 +1,15 @@
+<div class="mishistorietas">
+  Mis historietas
+  <div class="publicaciones">
+      <div *ngFor="let historieta of misHistorietas">
+        
+          <div class="nombre"><b>{{historieta.person.first_name}} {{historieta.person.last_name}}</b></div>
+          
+          <div class="fecha"><b>{{historieta.publish}}</b></div><br/>
+          <div class="texto">
+            <img src="../../../assets/profile.svg" width="100px" height="100px"/>
+            {{historieta.text}}
+        </div>
+      </div>
+  </div>
+</div>

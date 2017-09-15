@@ -1,0 +1,25 @@
+.mishistorietas {
+    float:left;
+}
+
+.publicaciones {
+    border: 2px solid black;
+    margin-top: 2px;
+    height:250px;
+    margin-bottom: 10px;
+    overflow-y:scroll;
+    padding-left:10px;
+}
+
+p {
+    padding-left: 5px;
+}
+
+.nombre {
+    float:left;
+}
+
+.fecha {
+    float:right;
+    
+}

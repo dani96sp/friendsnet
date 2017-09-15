@@ -1,28 +1,53 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { MisHistorietasService } from './historietas/mishistorietas/mishistorietas.service';
+import { HttpModule } from '@angular/http';
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
 import { HeaderComponent } from './header/header.component';
 import { HistorietasComponent } from './historietas/historietas.component';
-import { PerfilComponent } from './perfil/perfil.component';
-import { ColegasComponent } from './colegas/colegas.component';
-import { EventosComponent } from './eventos/eventos.component';
+import { ProfileComponent } from './profile/profile.component';
+import { FriendsComponent } from './friends/friends.component';
+import { EventsComponent } from './events/events.component';
+import { FootComponent } from './foot/foot.component';
+import { NavComponent } from './header/nav/nav.component';
+import { PublicarComponent } from './historietas/publicar/publicar.component';
+import { MishistorietasComponent } from './historietas/mishistorietas/mishistorietas.component';
+
+const appRoutes: Routes = [
+  { path: 'historietas', component: HistorietasComponent },
+  { path: 'profile',     component: ProfileComponent },
+  { path: 'friends',     component: FriendsComponent },
+  { path: 'events',     component: EventsComponent },
+  { path: '',     component: HistorietasComponent }
+];
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent,
     HeaderComponent,
     HistorietasComponent,
-    PerfilComponent,
-    ColegasComponent,
-    EventosComponent
+    ProfileComponent,
+    FriendsComponent,
+    EventsComponent,
+    FootComponent,
+    NavComponent,
+    PublicarComponent,
+    MishistorietasComponent
   ],
   imports: [
-    BrowserModule
+    RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true } // <-- debugging purposes only
+    ),
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [MisHistorietasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

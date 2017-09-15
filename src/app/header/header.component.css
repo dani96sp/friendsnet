@@ -1,25 +1,27 @@
-div {
-    margin:0 auto;
-    width:500px;
-    height: 120px;
-    /*background-image: url("../../assets/background.png");*/
-    background-color: rgba(86, 143, 160, 0.53);
-    text-align:left;
-}
-
-.nombre { 
-    
-    margin-left:10px;
-}
-
 img {
-    
-    background-color:rgba(31, 43, 75, 0.35);
-    margin-top:25px;
-    margin-left:10px;
-    
-    float:left;
     width:120px;
     height:120px;
-    border: 2px solid black;
+    float:left;
+    border:2px solid black;
+}
+
+.head {
+    padding-top: 30px;
+    margin-left:10px;
+}
+
+.cabecera {
+    background-color: rgba(58, 144, 184, 0.4);
+    height:120px;
+    margin-bottom: 50px;
+}
+
+.nombre {
+    float:left;
+    padding-left: 30px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-top: -10px;
 }
