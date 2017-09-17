@@ -1,29 +1,32 @@
-.mishistorietas {
-    float:left;
-    width:59%;
-}
-
-.mispublicaciones {
-    border: 2px solid black;
-    margin-top: 2px;
-    height:320px;
-    
-}
-
-.miscoleguillas {
-    float:left;
-    width:40%;    
-}
-
-.misamigos {
-    border: 2px solid black;
-    height:320px;
-    margin-top: 2px;
-}
 
 
 .publicar {
-    border: 1px solid black;
     height: 140px;
     margin-bottom: 15px;
 }
+
+textarea {
+    margin: 10px;
+    width: 545px;
+    height: 60px;
+}
+
+button {
+    float:right;
+    margin-right:10px;
+    text-decoration: none;
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+    box-shadow: 3px 3px black;    
+}
+
+
+fieldset {
+}
+
+legend {
+    font-size: 1em;
+    
+}
+

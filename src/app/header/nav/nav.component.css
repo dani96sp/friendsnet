@@ -1,6 +1,6 @@
 img {
-    width: 50px;
-    height:45px;
+    width: 40px;
+    height:35px;
 }
 
 .nav {
@@ -15,9 +15,18 @@ li {
     padding-bottom: 1px;
     padding-left: 18px;
     padding-right:20px;
-    
 }
 .menu {
     margin-left: -20px;
     border: 1px solid black;
+    box-shadow: 3px 3px #000000;
+    
+}
+
+.selected {
+    background-color: #B9B9B9;
+}
+
+li:hover {
+    background-color: #B9B9B9;
 }

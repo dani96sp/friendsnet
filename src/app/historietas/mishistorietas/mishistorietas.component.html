@@ -1,15 +1,33 @@
 <div class="mishistorietas">
   Mis historietas
   <div class="publicaciones">
-      <div *ngFor="let historieta of misHistorietas">
-        
-          <div class="nombre"><b>{{historieta.person.first_name}} {{historieta.person.last_name}}</b></div>
-          
-          <div class="fecha"><b>{{historieta.publish}}</b></div><br/>
-          <div class="texto">
-            <img src="../../../assets/profile.svg" width="100px" height="100px"/>
-            {{historieta.text}}
+    <div *ngFor="let historieta of misHistorietas" class="historieta">
+      <div class="contenedor">
+        <div class="container-cart">
+          <div class="container-info">
+            <div class="nombre">
+              <b>{{historieta.person.first_name}} {{historieta.person.last_name}}</b>
+            </div>
+            <div class="fecha">
+              <b>{{historieta.publish | date:'dd/MM/yyyy'}}</b>
+            </div>
+            </div>
+            <div class="inner">
+            <div class="image">
+              <img src="../../../assets/profile.svg" width="80px" height="80px"/>
+            </div>
+            <div class="texto">
+            <p>{{historieta.text}}</p>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="opinion">
+          <a href="#"><img src="../../../assets/1.png" width="20px" height="20px"/></a>
+          <a href="#"> <img src="../../../assets/2.png" width="20px" height="20px"/></a>
+          <a href="#"><img src="../../../assets/3.png" width="20px" height="20px"/></a>
+      </div>
+    </div>
   </div>
 </div>
+

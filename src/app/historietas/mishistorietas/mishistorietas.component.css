@@ -1,14 +1,18 @@
-.mishistorietas {
-    float:left;
-}
 
 .publicaciones {
     border: 2px solid black;
     margin-top: 2px;
-    height:250px;
+    height:300px;
     margin-bottom: 10px;
     overflow-y:scroll;
     padding-left:10px;
+    font-size: 0.75em;
+    padding-top:10px;
+    padding-right:1px;
+}
+
+a:hover {
+
 }
 
 p {
@@ -16,10 +20,60 @@ p {
 }
 
 .nombre {
-    float:left;
+    font-size: 1em;
+    margin-bottom: 5px;
 }
 
-.fecha {
-    float:right;
+.container-info{
+    width: 100%;
+    overflow: hidden;
+}
+
+.container-info .nombre{
+    float: left;
+}
+
+.container-info .fecha {
+    float: right;
+    margin-right:3px;
+}
+
+.inner{
+    width: 100%;
+    overflow:hidden;
     
+}
+
+.image{
+    float: left;
+    border: 1px solid black;
+    margin-right:5px;    
+}
+
+.inner .texto{
+    margin-right: 5px;
+}
+
+.container-cart {
+    height: 100%;
+    
+}
+
+.opinion {
+    float: right;
+}
+
+.contenedor {
+    overflow:hidden;
+}
+
+.historieta {
+    height: 140px;
+    border: 2px solid black;
+    margin: 2px;
+    padding-left:10px;
+}
+
+img {
+
 }
