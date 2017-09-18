@@ -2,8 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MisHistorietasService } from './historietas/mishistorietas/mishistorietas.service';
 import { HttpModule } from '@angular/http';
-import { ReactiveFormsModule } from '@angular/forms';
-import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -15,6 +14,7 @@ import { FootComponent } from './foot/foot.component';
 import { NavComponent } from './header/nav/nav.component';
 import { PublicarComponent } from './historietas/publicar/publicar.component';
 import { MishistorietasComponent } from './historietas/mishistorietas/mishistorietas.component';
+import { PersonService } from './historietas/person.service';
 
 const appRoutes: Routes = [
   { path: 'historietas', component: HistorietasComponent },
@@ -47,7 +47,7 @@ const appRoutes: Routes = [
     HttpModule,
     ReactiveFormsModule
   ],
-  providers: [MisHistorietasService],
+  providers: [MisHistorietasService, PersonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

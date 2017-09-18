@@ -13,7 +13,6 @@ import { PersonService } from '../person.service';
 
 export class PublicarComponent implements OnInit {
 
-
   posts: Post[];
   person: Person;
   form: FormGroup;
