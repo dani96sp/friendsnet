@@ -1,7 +1,7 @@
 
 .publicaciones {
     border: 2px solid black;
-    margin-top: 2px;
+    margin-top: -3px;
     height:300px;
     margin-bottom: 10px;
     overflow-y:scroll;
@@ -13,6 +13,10 @@
 
 a:hover {
 
+}
+
+#titulo {
+    font-size: 0.8em;
 }
 
 p {
@@ -74,6 +78,10 @@ p {
     padding-left:10px;
 }
 
-img {
+.opinion img {
+    margin-right: 5px;
+}
 
+#img1 {
+    margin-right:0;
 }

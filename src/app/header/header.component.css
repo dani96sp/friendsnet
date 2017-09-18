@@ -11,9 +11,10 @@ img {
 }
 
 .cabecera {
-    background-color: rgba(58, 144, 184, 0.4);
+    background-image: url("../../assets/fondo.jpg");
+    border: 2px solid black;
     height:120px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 .nombre {
@@ -25,3 +26,4 @@ h3 {
     font-size: 1.2em;
     margin-top: -10px;
 }
+

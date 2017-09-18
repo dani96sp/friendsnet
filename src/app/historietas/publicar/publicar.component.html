@@ -1,11 +1,10 @@
     <div class="publicar">
-      <form id="form">
+      <form (submit)="publicar()" [formGroup]="form">
           <fieldset>
-               <legend>di algo</legend>
-                <textarea id="topcard-summary"></textarea>
-              <button>Publicar Historieta</button>
+               <legend>Di algo</legend>
+                <textarea name="post" id="" formControlName="post" maxlength="240"></textarea>
+              <button type="submit" [disabled]="!form.valid">Publicar Historieta</button>
           </fieldset>
       </form>
     </div>
-
 
