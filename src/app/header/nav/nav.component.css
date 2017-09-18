@@ -1,6 +1,7 @@
 img {
     width: 40px;
     height:35px;
+    border-radius: 5px;
 }
 
 .nav {
@@ -11,15 +12,10 @@ img {
 
 li {
     display: inline;
-    border: 2px solid black;
-    padding-bottom: 1px;
-    padding-left: 18px;
-    padding-right:20px;
 }
+
 .menu {
     margin-left: -20px;
-    border: 1px solid black;
-    box-shadow: 3px 3px #000000;
     
 }
 
@@ -27,6 +23,26 @@ li {
     background-color: #B9B9B9;
 }
 
-li:hover {
+button {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    box-shadow: 3px 3px black;    
+    font-weight: bold;
+    font-size: 0.9em;
+    border: 2px solid black;
+    padding-bottom: 1px;
+    padding-left: 18px;
+    padding-right:20px;
+    margin-left: -5px;
+}
+
+button:hover {
     background-color: #B9B9B9;
+    cursor: pointer;
+}
+
+button:focus {
+    background-color: #B9B9B9;
+    
 }

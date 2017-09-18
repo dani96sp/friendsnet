@@ -127,6 +127,19 @@
         "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
         "birth": "2016-11-22T12:45:10.827Z"
       },
+      "historieta": "poipoi",
+      "id": 5
+    },
+    {
+      "person": {
+        "id": 1,
+        "first_name": "Cristian",
+        "last_name": "Longoria",
+        "city": "Linares Alfonso",
+        "country": "Aruba",
+        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
+        "birth": "2016-11-22T12:45:10.827Z"
+      },
       "text": "po",
       "id": 6
     },
@@ -166,7 +179,7 @@
         "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
         "birth": "2016-11-22T12:45:10.827Z"
       },
-      "text": "PRUEBAS",
+      "text": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
       "id": 9
     },
     {
@@ -179,8 +192,7 @@
         "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
         "birth": "2016-11-22T12:45:10.827Z"
       },
-      "publish": "2017-09-18T13:50:56.319Z",
-      "text": "asdssdssad",
+      "text": "malparido webon",
       "id": 10
     },
     {
@@ -193,8 +205,8 @@
         "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
         "birth": "2016-11-22T12:45:10.827Z"
       },
-      "publish": "2017-09-18T13:51:00.253Z",
-      "text": "asdssdssad",
+      "publish": "2017-09-18T16:02:49.114Z",
+      "text": "Et neque magnam dolorem illum facere aut molestiae. Dolor unde quis aut. Quo vel est quod dolores nulla a qui. Qui rerum non tenetur voluptatibus nobis debitis sed. Aut voluptatem omnis temporibus laudantium labore autem qui qui. Et neque m",
       "id": 11
     },
     {
@@ -207,135 +219,9 @@
         "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
         "birth": "2016-11-22T12:45:10.827Z"
       },
-      "publish": "2017-09-18T13:51:00.737Z",
-      "text": "asdssdssad",
+      "publish": "2017-09-18T16:19:53.587Z",
+      "text": "sadddsadqweqweqwrqwewqew",
       "id": 12
-    },
-    {
-      "person": {
-        "id": 1,
-        "first_name": "Cristian",
-        "last_name": "Longoria",
-        "city": "Linares Alfonso",
-        "country": "Aruba",
-        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-        "birth": "2016-11-22T12:45:10.827Z"
-      },
-      "publish": "2017-09-18T13:51:00.903Z",
-      "text": "asdssdssad",
-      "id": 13
-    },
-    {
-      "person": {
-        "id": 1,
-        "first_name": "Cristian",
-        "last_name": "Longoria",
-        "city": "Linares Alfonso",
-        "country": "Aruba",
-        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-        "birth": "2016-11-22T12:45:10.827Z"
-      },
-      "publish": "2017-09-18T13:51:01.021Z",
-      "text": "asdssdssad",
-      "id": 14
-    },
-    {
-      "person": {
-        "id": 1,
-        "first_name": "Cristian",
-        "last_name": "Longoria",
-        "city": "Linares Alfonso",
-        "country": "Aruba",
-        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-        "birth": "2016-11-22T12:45:10.827Z"
-      },
-      "publish": "2017-09-18T13:51:02.204Z",
-      "text": "asdssdssad",
-      "id": 15
-    },
-    {
-      "person": {
-        "id": 1,
-        "first_name": "Cristian",
-        "last_name": "Longoria",
-        "city": "Linares Alfonso",
-        "country": "Aruba",
-        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-        "birth": "2016-11-22T12:45:10.827Z"
-      },
-      "publish": "2017-09-18T13:51:02.371Z",
-      "text": "asdssdssad",
-      "id": 16
-    },
-    {
-      "person": {
-        "id": 1,
-        "first_name": "Cristian",
-        "last_name": "Longoria",
-        "city": "Linares Alfonso",
-        "country": "Aruba",
-        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-        "birth": "2016-11-22T12:45:10.827Z"
-      },
-      "publish": "2017-09-18T13:51:02.553Z",
-      "text": "asdssdssad",
-      "id": 17
-    },
-    {
-      "person": {
-        "id": 1,
-        "first_name": "Cristian",
-        "last_name": "Longoria",
-        "city": "Linares Alfonso",
-        "country": "Aruba",
-        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-        "birth": "2016-11-22T12:45:10.827Z"
-      },
-      "publish": "2017-09-18T13:51:32.128Z",
-      "text": "dashkasdhqwuiekas asdkjasdhqw uiqw qwwqe",
-      "id": 18
-    },
-    {
-      "person": {
-        "id": 1,
-        "first_name": "Cristian",
-        "last_name": "Longoria",
-        "city": "Linares Alfonso",
-        "country": "Aruba",
-        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-        "birth": "2016-11-22T12:45:10.827Z"
-      },
-      "publish": "2017-09-18T13:51:51.519Z",
-      "text": "asdqwerty",
-      "id": 19
-    },
-    {
-      "person": {
-        "id": 1,
-        "first_name": "Cristian",
-        "last_name": "Longoria",
-        "city": "Linares Alfonso",
-        "country": "Aruba",
-        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-        "birth": "2016-11-22T12:45:10.827Z"
-      },
-      "publish": "2017-09-18T13:51:56.471Z",
-      "text": "asdqwerty",
-      "id": 20
-    },
-    {
-      "person": {
-        "id": 1,
-        "first_name": "Cristian",
-        "last_name": "Longoria",
-        "city": "Linares Alfonso",
-        "country": "Aruba",
-        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-        "birth": "2016-11-22T12:45:10.827Z"
-      },
-      "publish": "2017-09-18T13:51:56.906Z",
-      "text": "asdqwerty",
-      "id": 21
     }
   ],
   "opinions": [
@@ -420,6 +306,7 @@
   ],
   "relations": [
     {
+      "id": 1,
       "requester": {
         "id": 0,
         "first_name": "Lorena",
@@ -441,6 +328,7 @@
       "accepted": false
     },
     {
+      "id": 2,
       "requester": {
         "id": 0,
         "first_name": "Lorena",
@@ -451,7 +339,7 @@
         "birth": "2017-07-15T16:06:50.357Z"
       },
       "requested": {
-        "id": 1,
+        "id": 2,
         "first_name": "Cristian",
         "last_name": "Longoria",
         "city": "Linares Alfonso",

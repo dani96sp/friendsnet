@@ -1,0 +1,17 @@
+
+.miscoleguillas {
+    float:left;
+    width:40%;    
+}
+
+
+.misamigos {
+    border: 2px solid black;
+    height:320px;
+    margin-top: 2px;
+}
+
+p {
+    padding-left: 5px;
+
+}

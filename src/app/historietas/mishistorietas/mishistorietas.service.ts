@@ -8,7 +8,6 @@ const UrlBase = 'http://localhost:3000/posts';
 @Injectable()
 export class MisHistorietasService {
 
-
     constructor(private http: Http) { }
 
     getHistorietas(): Observable<Post[]> {
@@ -25,5 +24,11 @@ export class MisHistorietasService {
         .map( (res: Response) => res.json() )
         .catch( (error: any) => Observable.throw(error.json().error || 'server error') );
       }
+
+    getMisHistorietas(): Observable<Post[]> {
+        return this.http.get(UrlBase + '?person.id=1')
+        .map( (res: Response) => res.json() )
+        .catch( (error: any) => Observable.throw(error.json().error || 'server error') );
+    }
 
 }

@@ -15,6 +15,9 @@ import { NavComponent } from './header/nav/nav.component';
 import { PublicarComponent } from './historietas/publicar/publicar.component';
 import { MishistorietasComponent } from './historietas/mishistorietas/mishistorietas.component';
 import { PersonService } from './historietas/person.service';
+import { MispublicacionesComponent } from './profile/mispublicaciones/mispublicaciones.component';
+import { MiscoleguillasComponent } from './profile/miscoleguillas/miscoleguillas.component';
+import { MisdatosComponent } from './profile/misdatos/misdatos.component';
 
 const appRoutes: Routes = [
   { path: 'historietas', component: HistorietasComponent },
@@ -35,7 +38,10 @@ const appRoutes: Routes = [
     FootComponent,
     NavComponent,
     PublicarComponent,
-    MishistorietasComponent
+    MishistorietasComponent,
+    MispublicacionesComponent,
+    MiscoleguillasComponent,
+    MisdatosComponent
   ],
   imports: [
     RouterModule.forRoot(

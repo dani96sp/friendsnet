@@ -1,0 +1,32 @@
+<div class="mishistorietas">
+    <b>Mis historietas</b>
+    <div class="mispublicaciones">
+        <div *ngFor="let historieta of misHistorietas" class="historieta">
+            <div class="contenedor">
+              <div class="container-cart">
+                <div class="container-info">
+                  <div class="nombre">
+                    <b>{{historieta.person.first_name}} {{historieta.person.last_name}}</b>
+                  </div>
+                  <div class="fecha">
+                    <b>{{historieta.publish | date:'dd/MM/yyyy'}}</b>
+                  </div>
+                  </div>
+                  <div class="inner">
+                  <div class="image">
+                    <img src="../../../assets/profile.svg" width="70px" height="80px"/>
+                  </div>
+                  <div class="texto">
+                  <p>{{historieta.text}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="opinion">
+                <a href="#"><img src="../../../assets/1.svg" width="20px" height="20px" id="img1"/></a>
+                <a href="#"> <img src="../../../assets/2.svg" width="25px" height="25px"/></a>
+                <a href="#"><img src="../../../assets/3.bmp" width="15px" height="15px"/></a>
+            </div>
+          </div>
+      </div>
+</div>
