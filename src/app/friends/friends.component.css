@@ -1,0 +1,21 @@
+button {
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    box-shadow: 2px 2px black;
+    width: 60px;
+    margin-left: 2px;
+    height: 30px;
+}
+
+.search {
+    width: 500px;
+    box-shadow: 2px 2px black;
+    border: 2px solid black;   
+}
+
+.buscador {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}

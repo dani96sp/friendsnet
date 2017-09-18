@@ -18,6 +18,7 @@ import { PersonService } from './historietas/person.service';
 import { MispublicacionesComponent } from './profile/mispublicaciones/mispublicaciones.component';
 import { MiscoleguillasComponent } from './profile/miscoleguillas/miscoleguillas.component';
 import { MisdatosComponent } from './profile/misdatos/misdatos.component';
+import { InfocoleguillaComponent } from './friends/infocoleguilla/infocoleguilla.component';
 
 const appRoutes: Routes = [
   { path: 'historietas', component: HistorietasComponent },
@@ -41,7 +42,8 @@ const appRoutes: Routes = [
     MishistorietasComponent,
     MispublicacionesComponent,
     MiscoleguillasComponent,
-    MisdatosComponent
+    MisdatosComponent,
+    InfocoleguillaComponent
   ],
   imports: [
     RouterModule.forRoot(

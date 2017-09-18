@@ -2,6 +2,7 @@ import { Http, Response, RequestOptions, Headers } from '@angular/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Rx';
 import { Post } from '../../models/post.model';
+import { Person } from '../../models/person.model';
 
 const UrlBase = 'http://localhost:3000/posts';
 
